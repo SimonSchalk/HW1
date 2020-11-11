@@ -13,8 +13,8 @@ Last Change:    03.01.2020
 """
 
 #Funktion zur Schaltjahr-Berechnung
-def Schaltjahr():
-        j = int(input("Zu ueberpruefendes Jahr:  "))
+def Schaltjahr(j):
+       """ j = int(input("Zu ueberpruefendes Jahr:  "))"""
         if j % 4 == 0:
                 if j % 100 == 0:
                     
@@ -31,4 +31,4 @@ def Schaltjahr():
         else:
                 print(str(j), " ist KEIN Schaltjahr!")
 
-Schaltjahr()
+
