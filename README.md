@@ -1,7 +1,11 @@
-# HW1
+# HW1 Simon Schalk 
 Homework assignment 1 - leapyear
 
 This project make it possible to check, if any year is a leapyear or not. 
+The function “Schaltjahr” check if a free chosen year is a leap year or not. 
+It is a leap year if the Number can be divided by 4 and 400 or divided by 4 and not 100. 
+All other years are no leap years. 
+The python code prints “Schaltjahr” if it is a leap year and “Kein Schaltjahr” if it is not a leap year. 
 
 
 Copyright Simon Schalk 
