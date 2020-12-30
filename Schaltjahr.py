@@ -16,6 +16,6 @@ Last Change:    03.01.2020
 def Schaltjahr(Jahr):
     #Ueberpruefung mit den angegbenen Parameter ob es ein Schaltjar ist.
     if Jahr % 4 == 0 and Jahr % 400 == 0 or Jahr % 4 == 0 and Jahr % 100 != 0:
-        print("Schaltjahr")
+        return 'Schaltjahr'
     else:
-        print("Kein Schaltjahr")
+        return 'Kein Schaltjahr'
